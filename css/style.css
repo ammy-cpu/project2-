@@ -1,7 +1,7 @@
 body{
 	background-color:#FAEBD7 ;
 	font-family:san-serif ,arial;
-	font-size:60px;
+	font-size:10px;
 	margin:0;
 	padding:0;
 }
@@ -10,6 +10,8 @@ body{
 h1, h2, h3 {
   color: #222;
   margin-bottom: 10px;
+  font-size:10px;
+  
 }
 
 
@@ -49,10 +51,10 @@ nav ul li a:hover {
 
 
 img {
-  max-width: 100%;
+  width:300px;
   height: auto;
-  margin-bottom: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  border:2px 
 }
 
 
