@@ -1,108 +1,119 @@
 
+/* =======================
+   Global Styles
+======================= */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.8; 
-  background-color: #f4f6f8; 
-  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6; /* better line spacing */
   margin: 0;
   padding: 0;
 }
 
+/* Background colors for different pages */
+.page-home {
+  background-color: #f0f8ff; /* light blue */
+}
 
+.page-resume {
+  background-color: #fff5e6; /* soft cream */
+}
+
+.page-extra {
+  background-color: #f5f9f5; /* light green tint */
+}
+
+/* =======================
+   Navigation Menu
+======================= */
 .nav {
-  background-color: #00796b; 
-  padding: 1rem 0;
-  text-align: center;
-  margin-bottom: 2rem;
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .nav li {
-  display: inline-block;
-  margin: 0 1.2rem;
+  list-style: none;
+  margin: 0 15px;
 }
 
 .nav a {
-  color: #fff;
   text-decoration: none;
+  color: white;
   font-weight: bold;
-  font-size: 1.1rem;
-  transition: color 0.3s;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
 }
 
 .nav a:hover {
-  color: #ffd54f; 
+  background-color: #ff9800; /* orange hover */
+  color: white;
 }
 
-
-h1, h2, h3 {
+/* =======================
+   Headings
+======================= */
+.main-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.2em;
   color: #222;
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
 }
 
-h1 {
-  font-size: 2.2rem;
-  border-bottom: 3px solid #00796b;
-  display: inline-block;
-  padding-bottom: 0.3rem;
+.subtitle {
+  text-align: center;
+  font-size: 1.5em;
+  color: #444;
 }
 
-h2 {
-  font-size: 1.7rem;
-  color: #00796b;
-}
-
-h3 {
-  font-size: 1.4rem;
-  color: #004d40;
-}
-
-
+/* =======================
+   Sections & Text
+======================= */
 section {
-  background-color: #ffffff;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-}
-
-
-p {
-  margin-bottom: 1rem;
-}
-
-
-img {
-  max-width: 40%;
-  height: auto;
-  border-radius: 6px;
-  margin: 0.8rem 0.8rem 0 0;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease-in-out;
 }
 
-img:hover {
-  transform: scale(1.05);
+p, li {
+  margin-bottom: 10px;
+  color: #333;
 }
 
-
+/* =======================
+   Lists
+======================= */
 ul {
-  margin-left: 1.8rem;
-  margin-bottom: 1.5rem;
+  padding-left: 20px;
 }
 
-.skills ul, .experience ul {
-  list-style: square;
-  padding-left: 1.5rem;
+ul li {
+  margin-bottom: 5px;
 }
 
 
+.photo {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.photo:hover {
+  transform: scale(1.05); /* zoom effect */
+}
+
+/* =======================
+   Footer (Optional)
+======================= */
 footer {
   text-align: center;
-  font-size: 0.9rem;
+  padding: 15px;
+  font-size: 0.9em;
   color: #555;
-  margin-top: 3rem;
-  padding: 1rem 0;
-  background-color: #00796b;
-  color: white;
 }
