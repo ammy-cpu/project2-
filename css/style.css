@@ -1,15 +1,18 @@
 
 
-/* === General Styles === */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6; /* Adds spacing between lines */
+    line-height: 1.6; /* Better line spacing */
     margin: 0;
     padding: 0;
 }
 
-/* === Navigation Menu === */
-ul {
+
+body.resume {
+    background-color: #fff7e6; 
+}
+
+.nav {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -17,54 +20,63 @@ ul {
     overflow: hidden;
 }
 
-ul li {
+.nav li {
     display: inline-block;
 }
 
-ul li a {
+.nav li a {
     display: block;
     color: white;
     padding: 12px 20px;
     text-decoration: none;
 }
 
-ul li a:hover {
+.nav li a:hover {
     background-color: #555;
 }
 
-/* === Page Backgrounds === */
-body.home {
-    background-color: #f2f8ff; /* Light blue */
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
-body.resume {
-    background-color: #fff7e6; /* Light cream */
-}
 
-body.hobby {
-    background-color: #f9f2ff; /* Light purple */
-}
-
-/* === Headings === */
-h1, h2, h3 {
-    margin-top: 20px;
+h1 {
     color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
-/* === Paragraphs === */
+h2, h3 {
+    color: #444;
+    margin-top: 20px;
+}
+
+
 p {
     margin: 10px 0;
 }
 
-/* === Images === */
-img {
-    max-width: 300px; /* Resize */
-    height: auto;
-    margin: 10px;
-    border-radius: 8px; /* Slightly rounded edges */
+
+ul {
+    padding-left: 20px;
 }
 
-/* === Sections === */
-section {
-    padding: 20px;
+ul li {
+    margin-bottom: 5px;
 }
+
+
+ .hobby-img {
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+	border:2px soild #ccc;
+}
+
