@@ -1,34 +1,30 @@
 
-/* =======================
-   Global Styles
-======================= */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6; /* better line spacing */
+  line-height:; /* better line spacing */
   margin: 0;
   padding: 0;
 }
 
-/* Background colors for different pages */
+
 .page-home {
-  background-color: #f0f8ff; /* light blue */
+  background-color:sky blue;
 }
 
 .page-resume {
-  background-color: #fff5e6; /* soft cream */
+  background-color:light pink; 
 }
 
 .page-extra {
-  background-color: #f5f9f5; /* light green tint */
+  background-color:gray; 
 }
 
-/* =======================
-   Navigation Menu
-======================= */
+
 .nav {
-  background-color: #333;
+  background-color:navy blue;
   padding: 10px 0;
-  display: flex;
+  display: inline-block;
   justify-content: center;
 }
 
@@ -47,29 +43,25 @@ body {
 }
 
 .nav a:hover {
-  background-color: #ff9800; /* orange hover */
+  background-color: #ff9800;
   color: white;
 }
 
-/* =======================
-   Headings
-======================= */
+
 .main-title {
   text-align: center;
   margin-top: 20px;
-  font-size: 2.2em;
+  font-size: 4em;
   color: #222;
 }
 
 .subtitle {
   text-align: center;
-  font-size: 1.5em;
-  color: #444;
+  font-size: 3.5em;
+  color: pink;
 }
 
-/* =======================
-   Sections & Text
-======================= */
+
 section {
   margin: 20px auto;
   padding: 15px;
@@ -84,9 +76,7 @@ p, li {
   color: #333;
 }
 
-/* =======================
-   Lists
-======================= */
+
 ul {
   padding-left: 20px;
 }
@@ -108,9 +98,7 @@ ul li {
   transform: scale(1.05); /* zoom effect */
 }
 
-/* =======================
-   Footer (Optional)
-======================= */
+
 footer {
   text-align: center;
   padding: 15px;
