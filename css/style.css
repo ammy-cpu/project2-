@@ -1,4 +1,70 @@
 
-body{
-	background-color:blue;
+
+/* === General Styles === */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Adds spacing between lines */
+    margin: 0;
+    padding: 0;
+}
+
+/* === Navigation Menu === */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #555;
+}
+
+/* === Page Backgrounds === */
+body.home {
+    background-color: #f2f8ff; /* Light blue */
+}
+
+body.resume {
+    background-color: #fff7e6; /* Light cream */
+}
+
+body.hobby {
+    background-color: #f9f2ff; /* Light purple */
+}
+
+/* === Headings === */
+h1, h2, h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* === Paragraphs === */
+p {
+    margin: 10px 0;
+}
+
+/* === Images === */
+img {
+    max-width: 300px; /* Resize */
+    height: auto;
+    margin: 10px;
+    border-radius: 8px; /* Slightly rounded edges */
+}
+
+/* === Sections === */
+section {
+    padding: 20px;
 }
