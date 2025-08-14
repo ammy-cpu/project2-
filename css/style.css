@@ -63,16 +63,16 @@ p {
 }
 
 
-ul {
+.content ul {
     padding-left: 20px;
 }
 
-ul li {
+.content ul li {
     margin-bottom: 5px;
 }
 
 
- .hobby-img {
+.hobby-img {
     max-width: 300px;
     height: auto;
     margin: 10px 0;
